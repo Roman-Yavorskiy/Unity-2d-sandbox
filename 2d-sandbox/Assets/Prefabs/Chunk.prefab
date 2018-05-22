@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1782119582528904}
+  m_IsPrefabParent: 1
+--- !u!1 &1782119582528904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4708859503763854}
+  - component: {fileID: 114702011520919570}
+  m_Layer: 0
+  m_Name: Chunk
+  m_TagString: TileStone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4708859503763854
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782119582528904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 20, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114702011520919570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782119582528904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b72c38969607a804c9c48880ecc4ddb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DirtTile: {fileID: 1391738166635180, guid: 9b12ac839ffbc7a4993e32badb038851, type: 2}
+  GrasTile: {fileID: 1346776236603530, guid: b69d69a3e39ddbb4faae6cfb3d31c70c, type: 2}
+  StoneTile: {fileID: 1647226344314108, guid: cb792f81030adef4b8417380125bf1d3, type: 2}
+  width: 25
+  heightMultiplayer: 10
+  heihgtAddition: 30
+  smoothness: 15
+  seed: 0
+  tileCoal: {fileID: 1840822652394540, guid: 6bef034a133234f49b607664e78705f1, type: 2}
+  tileDiamond: {fileID: 1745246630292474, guid: 078565ce73a3b234e899e5ecdaa417b5,
+    type: 2}
+  tileGold: {fileID: 1534724044837804, guid: f6e51f1c688f80147b4f959dbf46be1f, type: 2}
+  tileIron: {fileID: 1094082980078348, guid: 69dfa325fb941cf4c86d3bc1667005cd, type: 2}
+  chanceCoal: 5
+  chanceDiamond: 1
+  chanceGold: 2
+  chanceIron: 3

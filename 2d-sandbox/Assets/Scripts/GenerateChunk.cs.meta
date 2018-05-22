@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: b72c38969607a804c9c48880ecc4ddb4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - DirtTile: {fileID: 1391738166635180, guid: 9b12ac839ffbc7a4993e32badb038851, type: 2}
+  - GrasTile: {fileID: 1346776236603530, guid: b69d69a3e39ddbb4faae6cfb3d31c70c, type: 2}
+  - StoneTile: {fileID: 1647226344314108, guid: cb792f81030adef4b8417380125bf1d3,
+      type: 2}
+  - tileCoal: {fileID: 1840822652394540, guid: 6bef034a133234f49b607664e78705f1, type: 2}
+  - tileDiamond: {fileID: 1745246630292474, guid: 078565ce73a3b234e899e5ecdaa417b5,
+      type: 2}
+  - tileGold: {fileID: 1534724044837804, guid: f6e51f1c688f80147b4f959dbf46be1f, type: 2}
+  - tileIron: {fileID: 1094082980078348, guid: 69dfa325fb941cf4c86d3bc1667005cd, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
