@@ -16,7 +16,7 @@ public class SeekAndDestroy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.LookAt (player);
-		transform.Translate (Vector2.right * 500f * Time.deltaTime);
+		transform.Translate (Vector2.right * Time.deltaTime);
 		
 	}
 }

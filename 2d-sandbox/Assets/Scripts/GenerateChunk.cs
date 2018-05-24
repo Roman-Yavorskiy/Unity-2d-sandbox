@@ -33,17 +33,20 @@ public class GenerateChunk : MonoBehaviour {
 
 	}
 
-
+	//Generate main Blocks from stone dirt and grass
 	public void Generate ()
 	{
-		for (int i = 0; i < width; i++) {
-			int h = Mathf.RoundToInt ((Mathf.PerlinNoise (seed, (i + transform.position.x)/smoothness)*heightMultiplayer)+heihgtAddition);
+		
+		for (int i = 1; i <= width; i++) {
+			int h = Mathf.RoundToInt ((Mathf.PerlinNoise (0f, i/smoothness)*heightMultiplayer)+heihgtAddition);
+
+			//Debug.Log ("h"+h);
 
 			for (int j = 0; j < h; j++) {
 				GameObject selectedTile;
-				if (j < h - 20) {
+				if (j < h - 20) {		// level of stones 
 					selectedTile = StoneTile;
-				} else if (j < h - 1) {
+				} else if (j < h - 2) {  //thokness of grass
 					selectedTile = DirtTile; 
 				} else {
 					selectedTile = GrasTile;
@@ -54,10 +57,15 @@ public class GenerateChunk : MonoBehaviour {
 				newTile.transform.localPosition = new Vector2 (i, j);
 
 
+
+
+
 			}
 		}
 		Populate ();
 	}
+	// filling resources 
+
 	public void Populate () {
 		foreach (GameObject t in GameObject.FindGameObjectsWithTag("TileStone")) {
 			if (t.transform.parent == this.gameObject.transform) {

@@ -14,12 +14,12 @@ public class Inventory : MonoBehaviour {
 		counts [tileType] += count;
 	}
 
-	string[] names = new string[] {"Земелюшка", "Травка" , "Камушки" , "Уголек" , "Железяки" , "Золото" , "Брильянты" };
+	string[] names = new string[] {"Травка", "Земелька" , "Камушки" , "Уголек" , "Железяки" , "Золото" , "Брильянты" };
 
 		public GameObject[] tiles = new GameObject[7];
 	// Update is called once per frame
 	void Update () {
-		inventoryText.text = "Земля: " + counts [0] + "\nТрава: " + counts [1] + "\nКамень: " + counts [2] + "\nУголь: " + counts [3] + "\nЖелезо: " + counts [4] + "\nЗолото: " + counts [5] + "\nБрилики: " + counts [6];
+		inventoryText.text = "Трава: " + counts [0] + "\nЗемля: " + counts [1] + "\nКамень: " + counts [2] + "\nУголь: " + counts [3] + "\nЖелезо: " + counts [4] + "\nЗолото: " + counts [5] + "\nБрилики: " + counts [6];
 	
 	
 		if (Input.GetKeyDown (KeyCode.UpArrow)) {

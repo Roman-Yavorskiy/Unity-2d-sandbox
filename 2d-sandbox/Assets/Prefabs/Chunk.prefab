@@ -54,9 +54,9 @@ MonoBehaviour:
   DirtTile: {fileID: 1391738166635180, guid: 9b12ac839ffbc7a4993e32badb038851, type: 2}
   GrasTile: {fileID: 1346776236603530, guid: b69d69a3e39ddbb4faae6cfb3d31c70c, type: 2}
   StoneTile: {fileID: 1647226344314108, guid: cb792f81030adef4b8417380125bf1d3, type: 2}
-  width: 25
-  heightMultiplayer: 10
-  heihgtAddition: 30
+  width: 50
+  heightMultiplayer: 20
+  heihgtAddition: 50
   smoothness: 15
   seed: 0
   tileCoal: {fileID: 1840822652394540, guid: 6bef034a133234f49b607664e78705f1, type: 2}
